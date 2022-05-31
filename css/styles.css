@@ -1,0 +1,90 @@
+body {
+  background-color: #9ADCFF;
+    text-align: center;
+
+}
+h1 {
+  color: #EF4F4F;
+  font-style: italic;
+  font-size: 90px;}
+
+p {
+
+color: #FF85B3;
+font-style: italic;
+font-size: 20px;
+
+}
+
+
+hr {
+  border-style: none;
+  border-top-style:dotted;
+  background-color:#9ADCFF;
+  width: 6%;
+  border-width: 10px;
+
+
+
+}
+.Bacon {
+  background-color:#FB929E;
+
+
+}
+.Bacon:hover {
+
+  background-color: gold;
+
+}
+.bc {
+  color: red;
+}
+.bx{
+
+  border-radius: 100%
+
+}
+.bx:hover{
+  size:50%;
+
+}
+.bx:hover {
+  background-position: top;
+  border-radius: 200%
+
+}
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+img {
+
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  color: white;
+}
+img:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
